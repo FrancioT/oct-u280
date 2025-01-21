@@ -77,6 +77,7 @@ params = pc.bindParameters()
 pc.verifyParameters()
 
 lan = request.LAN()
+lan.vlan_tagging = True
 
 nodeList = params.nodes.split(',')
 i = 0
